@@ -3,7 +3,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addChart } from "./counter/counterSlice";
 
 function Home() {
