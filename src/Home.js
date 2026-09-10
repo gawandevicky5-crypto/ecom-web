@@ -10,7 +10,7 @@ function Home() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState("all");
-  const cartData = useSelector((state) => state.counter)
+
   let dispatch = useDispatch()
 
 

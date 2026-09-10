@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useDispatch, useSelector } from "react-redux";
 
 import {
@@ -48,7 +48,7 @@ const Cart = () => {
                 <td>{index + 1}</td>
 
                 <td>
-                  <img src={item.thumbnail} width="80" />
+                  <img src={item.thumbnail} alt="thumbnail" width="80" />
 
                   <span className="ms-3">
                     {item.title}

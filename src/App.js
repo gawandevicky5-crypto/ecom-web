@@ -1,8 +1,8 @@
-import React from 'react'
+
 import Home from './Home'
 import Cart from './Cart'
 import { Route, Routes } from 'react-router-dom'
-import { MdImportExport } from 'react-icons/md'
+
 
 const App = () => {
   return (
